@@ -1,0 +1,5 @@
+A simple ping command
+||
+$${cmdFull}$$
+||
+Replies with Pong!
