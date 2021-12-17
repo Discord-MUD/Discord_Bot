@@ -1,0 +1,9 @@
+This is the command you're using right now!
+||
+$${cmdFull}$$
+||
+Brings up the interactive help message to view all commands.
+||
+$${cmdFull}$$ [command]
+||
+Views help on a specific command.

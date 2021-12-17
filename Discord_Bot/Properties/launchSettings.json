@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Discord_Bot": {
+      "commandName": "Project",
+      "workingDirectory": "#wd"
+    }
+  }
+}
