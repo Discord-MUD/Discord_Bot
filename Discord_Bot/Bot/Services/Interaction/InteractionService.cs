@@ -75,8 +75,6 @@ namespace Discord_Bot.Bot.Services.Interaction
 		
 		public void Dispose()
 		{
-			Discord.ReactionAdded -= HandleReactionAddedEvent;
-
 			GC.SuppressFinalize(this);
 		}
 	}

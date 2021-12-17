@@ -23,7 +23,7 @@ namespace Discord_Bot
 			if (settings.settingsVer == "0")
 				return;
 
-			new Bot.Core();
+			new Bot.Core().StartBot(settings).Wait();
 		}
 
 		static Settings GetSettings()

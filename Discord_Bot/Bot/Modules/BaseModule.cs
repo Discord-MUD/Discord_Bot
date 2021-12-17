@@ -78,7 +78,7 @@ namespace Discord_Bot.Bot.Modules
 
 			EmbedBuilder embed = new()
 			{
-				Title = "NekoMon Commands",
+				Title = "Discord MUD Commands",
 				Description = "This is all dynamic!",
 				ThumbnailUrl = Discord.CurrentUser.GetAvatarUrl(),
 				Footer = new EmbedFooterBuilder()

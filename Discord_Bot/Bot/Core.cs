@@ -7,6 +7,7 @@ using Discord.Commands;
 using Discord.WebSocket;
 using Microsoft.Extensions.DependencyInjection;
 using Discord_Bot.Extensions;
+using Discord_Bot.Bot.Services.Interaction;
 
 namespace Discord_Bot.Bot
 {
@@ -28,6 +29,7 @@ namespace Discord_Bot.Bot
 			services = new ServiceCollection()
 				.AddSingleton(new DiscordSocketClient(socketConfig))
 				.AddSingleton<CommandService>()
+				.AddSingleton<InteractionService>()
 				.BuildServiceProvider();
 		}
 
